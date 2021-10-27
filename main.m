@@ -52,22 +52,7 @@ fprintf('Theta computed from gradient descent: \n');
 fprintf(' %f \n', theta);
 fprintf('\n');
 
-% ==================== Normal Equations ===================
 
-fprintf('Solving with normal equations...\n');
-
-% load dataset
-data = load('data.txt');
-[row,column] = size(data);
-X = data(:,1:column-1);
-y = data(:,column);
-m = row;
-
-% Add intercept term to X
-X = [ones(m, 1) X];
-
-% Calculate the parameters from the normal equation
-theta = normalEqn(X, y);
 
 
 
