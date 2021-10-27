@@ -1,2 +1,3 @@
 In this project, I used data to predict house prices by house size (in square feet) and the number of bedrooms.
 In the first part, I normalized the data and in the second part, I compute theta with gradient descent and plot the cost function history.
+In the end, I used Normal Equations to compute theta.
